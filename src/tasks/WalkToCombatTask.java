@@ -26,8 +26,8 @@ public class WalkToCombatTask extends Task {
     public void process() throws InterruptedException {
         script.currentState = States.WALK_TO_COMBAT;
 
+        script.setTierHandicap();
         if (script.proposedLocation == null) {
-            script.setTierHandicap();
             int areaLength = Locations.TIER_AREAS[script.currentTier - 1].length;
 
             Location location = Locations.TIER_AREAS[script.currentTier - 1][new Random().nextInt(areaLength)];

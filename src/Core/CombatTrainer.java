@@ -95,7 +95,6 @@ public class CombatTrainer extends Script  {
     }
 
     public boolean canPurchaseNewGear() {
-        log("hmm? " + tierItemsAreEquipped());
         if (outOfGold || tierItemsAreEquipped() || !settings.upgradeGear()) {
             return false;
         }
@@ -249,6 +248,7 @@ public class CombatTrainer extends Script  {
                 missingItems = getMissingItems();
                 itemsHaveBeenChecked = false;
                 currentLocation = null;
+                proposedLocation = null;
             }
             setAttackStyles();
         }

@@ -6,7 +6,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="665f0a80-f5c4-430a-8e03-e9803af6e96a" name="Default Changelist" comment="" />
+    <list default="true" id="665f0a80-f5c4-430a-8e03-e9803af6e96a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Core/CombatTrainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Core/CombatTrainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tasks/WalkToCombatTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/WalkToCombatTask.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +74,17 @@
       <updated>1573412109414</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
